@@ -19,12 +19,14 @@
     width: 200px;
     display: flex;
     justify-content: center;
+
     .header-logo {
       width: 70px;
       height: 70px;
       border-radius: 10px;
       background-color: #389af9;
     }
+
     .header-titulo {
       font-size: 50px;
       color: white;
@@ -34,5 +36,25 @@
 
   .header-nav a {
     color: white;
+  }
+}
+
+.main-container {
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-color: #162c55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  .main-titulo {
+    font-size: 50px;
+    color: white;
+  }
+
+  .main-descripcion {
+    color: #bee3ff;
   }
 }
